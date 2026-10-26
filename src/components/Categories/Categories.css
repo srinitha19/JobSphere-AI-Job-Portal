@@ -1,0 +1,27 @@
+.categories{
+    padding: 60px;
+}
+
+.categories h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.category-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+}
+
+.category-card{
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+    transition: .3s;
+}
+
+.category-card:hover{
+    transform: translateY(-5px);
+}

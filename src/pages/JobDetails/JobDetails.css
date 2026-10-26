@@ -1,0 +1,35 @@
+.details-container{
+    width:90%;
+    margin:40px auto;
+    display:flex;
+    justify-content:center;
+}
+
+.details-card{
+    width:700px;
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.details-card h1{
+    color:#2563EB;
+    margin-bottom:20px;
+}
+
+.details-card p{
+    margin:15px 0;
+    font-size:18px;
+}
+
+.apply-btn{
+    margin-top:25px;
+    background:#16A34A;
+    color:white;
+    border:none;
+    padding:14px 30px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}

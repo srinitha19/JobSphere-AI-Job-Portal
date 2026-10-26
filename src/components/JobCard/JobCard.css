@@ -1,0 +1,36 @@
+.job-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.1);
+}
+  
+.job-card h2 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+  
+.job-card p {
+    margin: 8px 0;
+}
+  
+.job-card button {
+    margin-top: 15px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.btn-group button{
+    flex: 1;
+}
